@@ -1,1 +1,5 @@
 # Lab 8 - Starter
+1. I chose option 1: Within a Github action that run whenever code is pushed. This should make sure that any new code that is pushed to the project passes the basic tests necessary, and saves a lot of time and work.
+2. No, for this you should use a unit test to see if it is giving you the correct output. End to end should be used to simulate an end user. 
+3. No, you should use end to end testing instead as unit testing does not account for the user activity and behavior aspect of writing and sending a message to another user. E2E would test how the overall app and its connected components work together, making it a more suitable choice.
+4. Yes, a unit test should be used to test the max message length feature. This feature is tied to a small single function and can be tested easily and unconnected from other components. 
